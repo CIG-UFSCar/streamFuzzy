@@ -1,0 +1,12 @@
+year <- sub("-.*", "", meta$Date)
+note <- sprintf("R package version %s", meta$Version)
+bibentry(
+  bibtype = "Manual",
+  title = "{streamFuzzy}: Fuzzy Data Stream Learning",
+  author = c(
+              person(given = "Priscilla de Abreu", family = "Lopes", role = c("aut")),
+              person(given = "Heloisa de Arruda", family = "Camargo", role = c("ths")),
+              person("Computational Intelligence Group", role = c("cre"), email = "cig@dc.ufscar.br")),
+  year = year,
+  note = note,
+  url = "https://github.com/CIG-UFSCar/streamFuzzy")

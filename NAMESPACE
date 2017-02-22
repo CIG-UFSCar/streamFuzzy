@@ -1,0 +1,9 @@
+#exportPattern("^[[:alpha:]]+")
+import(stream)
+import(methods)
+
+importFrom(e1071, cmeans)
+
+export(
+  DSC_FCM
+)

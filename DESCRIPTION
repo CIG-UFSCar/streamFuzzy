@@ -1,0 +1,15 @@
+Package: streamFuzzy
+Version: 0.2
+Date: 2017-02-22
+Title: Fuzzy Data Stream Learning
+Authors@R: c( person(given = "Priscilla de Abreu", family = "Lopes", role = c("aut")),
+              person(given = "Heloisa de Arruda", family = "Camargo", role = c("ths")),
+              person("Computational Intelligence Group", role = c("cre"), email = "cig@dc.ufscar.br"))
+Description: Functions for data stream learning algorithms based on fuzzy sets and logic theory.
+ This package extends package stream to include fuzzy techniques for data stream mining.
+Depends: R (>= 2.13.0), stream (>= 1.1-2)
+Imports: e1071, methods
+URL: http://cig.dc.ufscar.br
+BugReports: https://github.com/CIG-UFSCar/streamFuzzy/issues
+License: GPL-3
+Encoding: UTF-8
