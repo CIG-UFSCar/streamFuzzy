@@ -5,5 +5,8 @@ import(methods)
 importFrom(e1071, cmeans)
 
 export(
-  DSC_FCM
+  DSC_FCM,
+
+  FMiC,
+  DSC_FMiC
 )
