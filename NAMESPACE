@@ -1,6 +1,7 @@
 #exportPattern("^[[:alpha:]]+")
 import(stream)
 import(methods)
+import(foreach)
 
 importFrom(e1071, cmeans)
 
