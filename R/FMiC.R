@@ -24,7 +24,7 @@ FMiC <-
                 t = "numeric",
                 ## store microcluster
                 c = "numeric", # cluster prototype
-                N = "numeric", # number of associated examples
+                N = "numeric" # number of associated examples
                 # r = "numeric" # cluster radius
               ),
 
