@@ -69,7 +69,7 @@ fMicro_refClass$methods(
       ## if there is at least a few micro cluster
       if(numMiC >= minNumFMiC){
         ## get membership of point to all micro clusters
-        dxC <- as.matrix((rbind(microCenters, p))) ### distance matrix for p and all FMiC centers
+        dxC <- as.matrix(dist(rbind(microCenters, p))) ### distance matrix for p and all FMiC centers
         dxC <- dxC[numMiC+1,-(numMiC+1)]  ### Only need the one line for distances considering p
         membership <- numeric()
 
