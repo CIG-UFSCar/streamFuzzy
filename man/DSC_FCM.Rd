@@ -35,7 +35,7 @@ A number greater than 1 giving the degree of fuzzification.
 Micro-clusters with a weight less than this will be ignored for reclustering.
 }
   \item{description}{
-Optional character string to describe the clustering method
+Optional character string to describe the clustering method.
 }
 }
 \details{
@@ -44,7 +44,7 @@ Please refer to function cmeans in \strong{e1071} for more details on the algori
 Note that this clustering cannot be updated iteratively and every time it is used for (re)clustering, the old clustering is deleted.
 }
 \value{
-  An object of class DSC_FCM (subclass of DSC, DSC_R, DSC_Macro)
+An object of class DSC_FCM (subclass of DSC, DSC_R, DSC_Macro)
 }
 %\references{
 %% ~put references to the literature/web site here ~
